@@ -7,7 +7,9 @@
 <script type='text/javascript' src='/static/js/badge.js'></script>
 <?
 
-$badge = "<canvas id='clock-canvas' class='centre'>loading...</canvas>";
+// $badge = "<canvas id='clock-canvas' class='centre'>loading...</canvas>";
+
+$badge = '<img src="https://cdnb.artstation.com/p/assets/images/images/023/696/733/large/marina-orgaz-totoro-5.jpg?1580067203">';
 
 if(!$uu->id) {
     ?><div id='badge-container' class='centre'>
