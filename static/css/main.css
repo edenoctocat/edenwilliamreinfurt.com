@@ -14,9 +14,11 @@ body {
 	height: 100%;
 	font-family: sf-text, Helvetica, Arial, sans-serif;
 	font-size: 18px;
+	color: #000000;
 	line-height: 22px;	
 	-webkit-font-smoothing: subpixel-antialiased;
 	-webkit-text-size-adjust: 100%;
+	background-color: #9fa7ab;
 }
 
 p {
@@ -111,6 +113,12 @@ blockquote {
     columns: 400px 6;
     column-gap: 44px;
     padding: 1em;
+}
+
+#one-column {
+	padding: 1em;
+	width: 650px;
+	margin: auto;
 }
 
 /* use margin instead of <br> */
@@ -360,6 +368,10 @@ blockquote {
         break-after: initial;
         margin-bottom: -22px;
     }
+
+	#one-column {
+		width: 100%;
+	}
 }
 
 /* print (currently printing works best in chrome) */
