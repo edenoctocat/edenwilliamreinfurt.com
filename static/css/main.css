@@ -28,7 +28,6 @@ p {
 img, video {
 	width: 100%;
 	padding: 1em;
-  	/* filter: grayscale(100%); */
 }
 
 canvas {
@@ -100,6 +99,10 @@ blockquote {
 	width: initial;
 }
 
+#badge.large {
+	display: none;
+}
+
 #breadcrumbs {
 	padding: 1em;
 	padding-bottom: 0px;
@@ -113,6 +116,26 @@ blockquote {
     columns: 400px 6;
     column-gap: 44px;
     padding: 1em;
+}
+
+#columns .img-box {
+	position: relative;
+	overflow: hidden;
+	background: #ff0000;
+	height: 400px;
+	width: 400px;
+}
+
+#columns .img-box img {
+	padding: 1em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+	height: auto;
+	width: auto;
 }
 
 #one-column {
