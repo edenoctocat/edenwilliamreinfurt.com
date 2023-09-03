@@ -6,8 +6,10 @@ if ($uri[1] == 'print')
     require_once("views/print.php");
 else if ($uri[1] == 'read')
     require_once("views/read.php");
-else 
+else if ($uri[1])
     require_once("views/main.php");
+else
+   require_once("views/home.php");
 require_once("views/badge.php");
 require_once("views/foot.php");
 ?>
