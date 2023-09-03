@@ -36,7 +36,7 @@ else
 		</ul>
 	</div>
     <div id='content'>
-        <div id='columns'><?
+        <div id='one-column'><?
             echo $body;
             if ($date) {
                 ?><div id='notes' class='mono'><?
